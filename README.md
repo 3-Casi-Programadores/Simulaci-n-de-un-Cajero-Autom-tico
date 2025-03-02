@@ -1,5 +1,4 @@
-# 📚 Sistema de Gestión de Estudiantes  
-
+# 📚 Simulacion De Un Cajero Automatico
 ![GitHub repo size](https://img.shields.io/github/repo-size/3-Casi-Programadores/Sistema-de-Gestion-de-Estudiantes)
 ![GitHub contributors](https://img.shields.io/github/contributors/3-Casi-Programadores/Sistema-de-Gestion-de-Estudiantes)
 ![GitHub last commit](https://img.shields.io/github/last-commit/3-Casi-Programadores/Sistema-de-Gestion-de-Estudiantes)
