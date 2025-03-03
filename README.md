@@ -1,7 +1,7 @@
 # 📚 Simulacion De Un Cajero Automatico
-![GitHub repo size](https://img.shields.io/github/repo-size/3-Casi-Programadores/Sistema-de-Gestion-de-Estudiantes)
-![GitHub contributors](https://img.shields.io/github/contributors/3-Casi-Programadores/Sistema-de-Gestion-de-Estudiantes)
-![GitHub last commit](https://img.shields.io/github/last-commit/3-Casi-Programadores/Sistema-de-Gestion-de-Estudiantes)
+![GitHub repo size](https://img.shields.io/github/repo-size/3-Casi-Programadores/Simulaci-n-de-un-Cajero-Autom-tico)
+![GitHub contributors](https://img.shields.io/github/contributors/3-Casi-Programadores/Simulaci-n-de-un-Cajero-Autom-tico)
+![GitHub last commit](https://img.shields.io/github/last-commit/3-Casi-Programadores/Simulaci-n-de-un-Cajero-Autom-tico)
 
 
 ## Descripción
@@ -41,5 +41,5 @@ Para ejecutar este proyecto, sigue estos pasos:
 
 1. Clona el repositorio:
    ```bash
-   git clone https://github.com/3-Casi-Programadores/Sistema-de-Gestion-de-Estudiantes.git
+   git clone https://github.com/4-dEVS-UTH/Simulaci-n-de-un-Cajero-Autom-tico.git
 
