@@ -77,9 +77,23 @@ public class CajeroAutomatico {
         for (int i = 0; i < numClientes; i++) {
             System.out.print("Ingresa el nombre del cliente #" + (i + 1) + ": ");
             String nombreCliente = scanner.nextLine();
-            System.out.print("Ingresa el saldo inicial para " + nombreCliente + ": ");
-            double saldoInicial = scanner.nextDouble();
-            scanner.nextLine();  // Limpiar el buffer del Scanner
+
+            double saldoInicial = 0;
+            boolean saldoValido = false;
+            while (!saldoValido) {
+                try {
+                    System.out.print("Ingresa el saldo inicial para " + nombreCliente + ": ");
+                    saldoInicial = Double.parseDouble(scanner.nextLine());
+                    if (saldoInicial < 0) {
+                        System.out.println("El saldo inicial no puede ser negativo. Intenta nuevamente.");
+                    } else {
+                        saldoValido = true;
+                    }
+                } catch (NumberFormatException e) {
+                    System.out.println("Entrada inválida. Por favor ingresa un número válido para el saldo.");
+                }
+            }
+
             cajero.agregarCuenta(nombreCliente, saldoInicial);
         }
 
@@ -92,8 +106,20 @@ public class CajeroAutomatico {
             System.out.print("Ingresa el nombre del cliente para el intento de retiro #" + (i + 1) + ": ");
             String nombreCliente = scanner.nextLine();
             System.out.print("Ingresa el monto que " + nombreCliente + " desea retirar: ");
-            double monto = scanner.nextDouble();
-            scanner.nextLine();  // Limpiar el buffer del Scanner
+            double monto = 0;
+            boolean montoValido = false;
+            while (!montoValido) {
+                try {
+                    monto = Double.parseDouble(scanner.nextLine());
+                    if (monto <= 0) {
+                        System.out.println("El monto de retiro debe ser mayor que cero. Intenta nuevamente.");
+                    } else {
+                        montoValido = true;
+                    }
+                } catch (NumberFormatException e) {
+                    System.out.println("Entrada inválida. Por favor ingresa un número válido para el monto de retiro.");
+                }
+            }
 
             // Crear el hilo del cliente que intenta retirar
             CuentaBancaria cuentaCliente = cajero.obtenerCuenta(nombreCliente);
