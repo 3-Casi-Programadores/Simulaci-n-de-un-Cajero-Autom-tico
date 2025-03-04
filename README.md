@@ -1,46 +1,36 @@
-# 📚 Simulacion De Un Cajero Automatico
-![GitHub repo size](https://img.shields.io/github/repo-size/3-Casi-Programadores/Simulaci-n-de-un-Cajero-Autom-tico)
-![GitHub contributors](https://img.shields.io/github/contributors/3-Casi-Programadores/Simulaci-n-de-un-Cajero-Autom-tico)
-![GitHub last commit](https://img.shields.io/github/last-commit/3-Casi-Programadores/Simulaci-n-de-un-Cajero-Autom-tico)
+# 🏧 **Simulación de un Cajero Automático**  
 
+![GitHub repo size](https://img.shields.io/github/repo-size/4-dEVS-UTH/Simulaci-n-de-un-Cajero-Autom-tico)  
+![GitHub contributors](https://img.shields.io/github/contributors/4-dEVS-UTH/Simulaci-n-de-un-Cajero-Autom-tico)  
+![GitHub last commit](https://img.shields.io/github/last-commit/4-dEVS-UTH/Simulaci-n-de-un-Cajero-Autom-tico)  
 
-## Descripción
+## 📌 **Descripción**  
+Este proyecto en **Java** simula un **cajero automático** con múltiples clientes que intentan retirar dinero de una cuenta compartida. El sistema debe:  
 
-Este proyecto es un sistema en Java que permite gestionar una lista de estudiantes y sus calificaciones. Permite realizar las siguientes acciones:
+✅ Permitir que varios clientes intenten retirar dinero al mismo tiempo.  
+✅ Evitar que un cliente retire más dinero del disponible en la cuenta.  
+✅ Asegurar que los retiros sean procesados de manera segura sin inconsistencias.  
 
-- Registrar un estudiante con su nombre y calificación.
-- Mostrar todos los estudiantes registrados.
-- Buscar estudiantes con calificaciones mayores o iguales a 80 utilizando Streams.
-- Eliminar un estudiante por su nombre.
+## 👥 **Integrantes**  
+- Denis Colon  
+- Carlos Campos  
+- Uziel Alejandro  
+- Elis González  
 
-## Integrantes
+## 🔹 **Características**  
+- Uso de `Thread` para simular clientes realizando retiros simultáneamente.  
+- Implementación de `synchronized` para evitar retiros erróneos.  
+- Uso de `HashMap` para gestionar cuentas bancarias y saldos.  
 
-- Denis Colon
-- Carlos Campos
-- Uziel Alejandro
-- Elis
+## 💻 **Lenguaje de Programación**  
+<img src="https://upload.wikimedia.org/wikipedia/en/3/30/Java_programming_language_logo.svg" alt="Java Logo" width="100">  
 
+## ⚙️ **Requisitos**  
+- JDK 8 o superior.  
+- Un IDE o terminal para ejecutar el programa.  
 
-## Características
+## 🚀 **Instalación y Ejecución**  
 
-- Uso de `HashMap<String, Integer>` para almacenar los estudiantes y sus calificaciones.
-- Uso de `ArrayList` para gestionar las listas de estudiantes.
-- Uso de `Streams` y `Lambda` para filtrar los estudiantes con calificaciones >= 80.
-- Interacción con el usuario mediante `Scanner`.
-
-## Lenguaje de Programación
-<img src="https://upload.wikimedia.org/wikipedia/en/3/30/Java_programming_language_logo.svg" alt="Java Logo" width="100">
-
-## Requisitos
-
-- JDK 8 o superior.
-- IDE o terminal para ejecutar el programa.
-
-## Instalación
-
-Para ejecutar este proyecto, sigue estos pasos:
-
-1. Clona el repositorio:
+1️⃣ **Clona el repositorio:**  
    ```bash
    git clone https://github.com/4-dEVS-UTH/Simulaci-n-de-un-Cajero-Autom-tico.git
-
